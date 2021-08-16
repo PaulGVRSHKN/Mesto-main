@@ -1,0 +1,19 @@
+.profile__text_name {
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 48px;
+    margin: 0 auto 16px;
+}
+
+@media all and (max-width: 1000px) {
+    .profile__text_name {
+        margin: 26px auto 14px;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .profile__text_name {
+        font-size: 27px;
+        line-height: 33px;
+    }
+}

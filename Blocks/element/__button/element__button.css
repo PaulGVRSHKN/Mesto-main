@@ -1,0 +1,16 @@
+.element__button {
+    width: 22px;
+    height: 19px;
+    padding: 0;
+    align-self: center;
+    background-image: url(../../../Images/Vector\ лайк.svg);
+    background-color: white;
+    border: none;
+    background-size: cover;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+
+.element__button:hover {
+    opacity: 0.5;
+}
