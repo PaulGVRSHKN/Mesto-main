@@ -2,59 +2,95 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Mesto</title>
 </head>
 
-<body class="background">
-    <div class="page">
-        
-        <header class="header">
-            <img class="header__logo" src="./Images/Mesto.png" alt="Лого Mesto Russia">
-        </header>
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="./Images/Mesto.svg" alt="Лого Mesto Russia">
+    </header>
 
-        <main class="content">
-            <section class="profile">
-                <img class="profile__avatar" src="./Images/Кусто.png" alt="Аватар профиля">
-                <div class="profile__info">
-                    <h1 class="profile__title">Жак-Ив Кусто</h1>
-                    <button type="button" class="profile__edit-button button"></button>
-                    <p class="profile__subtitle">Исследователь океана</p>
+    <main class="content">
+        <section class="profile">
+            <img class="profile__avatar" src="./Images/Кусто.png" alt="Аватар профиля">
+            <div class="profile__info">
+                <h1 class="profile__text profile__text_name">Жак-Ив Кусто</h1>
+                <button type="button" class="profile__edit-button"></button>
+                <p class="profile__text profile__text_job">Исследователь океана</p>
+            </div>
+            <button type="button" class="profile__add-button"></button>
+        </section>
+
+        <section class="elements">
+            <div class="element__item">
+                <img class="element__pic" src="./Images/Карачаевск.png" alt="Фото Карачаевск">
+                <div class="element__container" >
+                    <h2 class="element__title">Карачаевск</h2>
+                    <button type="button" class="element__button"></button>
                 </div>
-                <button type="button" class="profile__add-button button"></button>
-            </section>
+            </div>
 
-            <section class="elements">
-                <div class="element">
-
+            <div class="element__item">
+                <img class="element__pic" src="./Images/Эльбрус.png" alt="Фото Эльбрус">
+                <div class="element__container" >
+                    <h2 class="element__title">Эльбрус</h2>
+                    <button type="button" class="element__button"></button>
                 </div>
+            </div>
 
-                <div class="element">
-                    
+            <div class="element__item">
+                <img class="element__pic" src="./Images/Домбай.png" alt="Фото Домбай">
+                <div class="element__container" >
+                    <h2 class="element__title">Домбай</h2>
+                    <button type="button" class="element__button"></button>
                 </div>
+            </div>
 
-                <div class="element">
-                    
+            <div class="element__item">
+                <img class="element__pic" src="./Images/Домбай.png" alt="Фото Домбайская Поляна">
+                <div class="element__container" >
+                    <h2 class="element__title">Домбайская Поляна</h2>
+                    <button type="button" class="element__button"></button>
                 </div>
+            </div>
 
-                <div class="element">
-                    
+            <div class="element__item">
+                <img class="element__pic" src="./Images/Карачаевск.png" alt="Фото Карачаево-Черкесия">
+                <div class="element__container" >
+                    <h2 class="element__title">Карачаево-Черкесия</h2>
+                    <button type="button" class="element__button"></button>
                 </div>
+            </div>
 
-                <div class="element">
-                    
+            <div class="element__item">
+                <img class="element__pic" src="./Images/Эльбрус.png" alt="Фото Эльбрус2">
+                <div class="element__container" >
+                    <h2 class="element__title">Гора Эльбрус</h2>
+                    <button type="button" class="element__button"></button>
                 </div>
+            </div>
+        </section>
+    </main>
 
-                <div class="element">
-                    
-                </div>
-            </section>
-        </main>
+    <footer>
+        <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
+    </footer>
 
-        <footer>
-            <p class="footer__copyright">&copy; 2020 Mesto Russia</p>
-        </footer>
-    </div>  
+    <section class="popup">
+        <form class="popup__container">
+            <button class="popup__close-button" type="reset"></button>
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <input type="text" name="name" placeholder="Имя" class="popup__text popup__input_type_name">
+            <input type="text" name="info" placeholder="О себе" class="popup__text popup__input_type_job">
+            <button class="popup__save-button" type="submit">Сохранить</button>
+        </form>
+    </section>
+
+    <script src="./Scripts/script.js"></script>
+
 </body>
+
 </html>
