@@ -8,6 +8,14 @@
 
 @font-face {
     font-family: 'Inter';
+    src: url(./Inter-500.woff);
+    src: url(./Inter-500.woff2);
+    font-weight: 500;
+    line-height: normal;
+}
+
+@font-face {
+    font-family: 'Inter';
     src: url(./inter-700.woff) format('woff');
     src: url(./inter-700.woff2) format('woff2');
     font-weight: 700;
