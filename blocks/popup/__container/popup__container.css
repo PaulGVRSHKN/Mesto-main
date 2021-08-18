@@ -1,9 +1,7 @@
 .popup__container {
-    /*font-family: 'Inter', 'Arial', sans-serif;*/
     display: flex;
     flex-direction: column;
     width: 430px;
-    height: 330px;
     margin: auto;
     padding: 35px;
     padding-top: 0;
@@ -17,7 +15,6 @@
 @media all and (max-width: 440px) {
     .popup__container {
         width: 282px;
-        height: 322px;
         padding: 0 22px 25px;
     }
 }

@@ -1,4 +1,4 @@
-.profile__text_job {
+.profile__job {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -6,7 +6,7 @@
 }
 
 @media all and (max-width: 440px) {
-    .profile__text_job {
+    .profile__job {
         font-size: 14px;
         line-height: 17px;
     }
